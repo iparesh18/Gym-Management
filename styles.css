@@ -1,0 +1,101 @@
+body {
+    font-family: "gilroy";
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #000000;
+    text-align: center;
+}
+#credit{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 100;
+    color: #ffffff; 
+    text-align: center;
+    text-shadow: 
+        0 0 5px #5eefe5, 
+        0 0 10px #5e93ef, 
+        0 0 20px #00e1ff, 
+        0 0 30px #009dff, 
+        0 0 40px #00bbff, 
+        0 0 50px #00a2ff, 
+        0 0 60px #0073ff;
+}
+#app {
+    padding: 20px;
+    background-color: #000;
+    color: #ffffff;
+}
+
+#menu {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: #000000;
+    border: solid 1px #5e9aef;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* button:hover {
+    background-color: #5e9aef;
+    color: #000;
+    border: solid 1px #000;
+} */
+
+.hidden {
+    display: none;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input {
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    outline: nonr;
+    border-radius: 20px;
+}
+
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    background-color: #000000;
+    margin: 15px 0;
+    padding:  5px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dadada;
+}
+
+@media screen and (max-width: 600px) {
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+        
+    }
+
+    form input {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+}
+
+
